@@ -20,7 +20,7 @@ export class ClientesService {
 
   getCliente() : Cliente {
     let cliente: Cliente = new Cliente();
-    cliente.nome = 'alex';
+    cliente.name = 'alex';
     cliente.email = 'mail@mail.com';
     cliente.password = 'alex132';
     cliente.phone = '34324343';
